@@ -1,0 +1,33 @@
+{
+    "name": "bixypay/fintech-sdk",
+    "description": "Official PHP SDK for the BixyPay Fintech API Platform",
+    "type": "library",
+    "keywords": ["bixypay", "fintech", "payment", "crypto", "api", "sdk"],
+    "homepage": "https://github.com/bixypay/fintech-sdk-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BixyPay",
+            "email": "developers@bixypay.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BixyPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BixyPay\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
